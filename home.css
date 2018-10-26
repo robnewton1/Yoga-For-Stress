@@ -29,13 +29,13 @@ body {
 
 #img {bottom: 15%;
 	position: relative; 
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: run;
-    -webkit-animation-duration: 20s;
+    animation: infinite alternate;
+    animation-name: run;
+    animation-duration: 10s;
 }     
-@-webkit-keyframes run {
+@keyframes run {
     0% { left: 0;}
-    50%{ left : 100%;}
+    50%{ left : 41.3%;}
     100%{ left: 0 ;}
 }
 
