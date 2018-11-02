@@ -7,16 +7,12 @@ body {
 img {
 	padding: 0px 20px 10px 0;
 }
+
 #topbanner {
-	text-align: center;
-	position: fixed;
-	color: #fff;
-    background-color: #00B2EE;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 60px;
-    top: 0;
+	.box {
+	background: lightgreen;
+	height: 75px;
+	z-index: -1;
 }
 h1 {
 	font-size: 24px;
@@ -84,3 +80,20 @@ h1 {
 .floatleft {
 	float: left;
 }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+	float: left;
+}
+
+li a:hover {
+    background-color: darkgrey;
+}
+
