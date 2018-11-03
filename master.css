@@ -12,9 +12,17 @@ h1 {
 }
 
 .box {
-	background: black;
+	background: lightgreen;
 	height: 75px;
 	z-index: -1;
+}
+
+.box {
+	background: lightgreen;
+	height: 75px;
+	z-index: -1;
+	border: 2px solid black;
+	
 }
 
 
